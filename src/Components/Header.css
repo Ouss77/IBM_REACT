@@ -1,0 +1,57 @@
+/* General reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(95, 153, 8);
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo h2 {
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.logo h3 {
+  font-size: 1rem;
+  color: white;
+}
+
+.title h2 {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.icon {
+  position: relative;
+  font-size: 1.5rem;
+  color: white;
+  cursor: pointer;
+}
+
+.cart-count {
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 0.2rem 0.5rem;
+  font-size: 0.8rem;
+}
